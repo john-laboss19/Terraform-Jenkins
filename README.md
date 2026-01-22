@@ -118,6 +118,6 @@ Terraform was used to provision:
   
 ## Documentation
 
-A full step-by-step walkthrough of this project is available on Medium:
+A full step-by-step walkthrough of this project, including screenshots, is available on Medium:
 
 **Deploy a Jenkins Server with Terraform** https://medium.com/@labossiere01/deploy-a-jenkins-server-with-terraform

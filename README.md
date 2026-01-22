@@ -52,14 +52,10 @@ The deployment includes:
 - Added a README and Terraform `.gitignore`
 - Cloned the repository locally for development
 
----
-
 ### Step 2: Configure the Terraform Provider
 - Defined the AWS provider and region
 - Used variables to avoid hardcoding environment-specific values
 - Ensured the configuration could be reused in other environments
-
----
 
 ### Step 3: Define Infrastructure Resources
 Terraform was used to provision:
@@ -67,14 +63,10 @@ Terraform was used to provision:
 - A security group allowing SSH and Jenkins web access
 - An S3 bucket to store Jenkins artifacts securely
 
----
-
 ### Step 4: Bootstrap Jenkins Installation
 - Created a shell script to automatically install and start Jenkins on the EC2 instance
 - Referenced official Jenkins documentation to ensure best practices
 - Attached the script to the EC2 instance so Jenkins starts on first boot
-
----
 
 ### Step 5: Use Variables for Flexibility
 - Defined reusable variables for:
@@ -85,15 +77,11 @@ Terraform was used to provision:
   - Security group name
 - This approach makes the deployment easier to maintain and scale
 
----
-
 ### Step 6: Execute the Terraform Workflow
 - Initialized the Terraform project
 - Validated and reviewed the infrastructure plan
 - Applied the configuration to create AWS resources
 - Confirmed all resources were created successfully
-
----
 
 ### Step 7: Verify Jenkins Deployment
 - Verified the EC2 instance was running
@@ -101,13 +89,9 @@ Terraform was used to provision:
 - Accessed the Jenkins web interface through the browser
 - Completed initial Jenkins setup and confirmed dashboard access
 
----
-
 ### Step 8: Clean Up Resources
 - Destroyed all infrastructure using Terraform
 - Ensured no unnecessary AWS resources remained active
-
----
 
 ## Results
 

@@ -116,3 +116,8 @@ Terraform was used to provision:
 - Secure access configured through security groups
 - Jenkins is verified and accessible via web interface
   
+## Documentation
+
+A full step-by-step walkthrough of this project is available on Medium:
+
+**Deploy a Jenkins Server with Terraform** https://medium.com/@labossiere01/deploy-a-jenkins-server-with-terraform

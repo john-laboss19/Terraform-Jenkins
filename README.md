@@ -4,8 +4,6 @@ This project demonstrates how to deploy a Jenkins server on AWS using Terraform 
 
 The objective is to create a repeatable, version controlled Jenkins environment that can be deployed, validated, and removed efficiently.
 
----
-
 ## Project Goal
 
 Provision a Jenkins server using Terraform so that:
@@ -14,14 +12,10 @@ Provision a Jenkins server using Terraform so that:
 - Manual configuration in the AWS console is minimized
 - Resources can be easily deployed and destroyed
 
----
-
 ## Project Scenario
 
 A team wants to adopt Jenkins as their CI/CD tool for DevOps projects.  
 They require a Jenkins server deployed through Terraform to ensure infrastructure changes are predictable, auditable, and reusable.
-
----
 
 ## Technologies Used
 
@@ -33,8 +27,6 @@ They require a Jenkins server deployed through Terraform to ensure infrastructur
 - Bash (Bootstrap Script)
 - GitHub
 
----
-
 ## Architecture Overview
 
 The deployment includes:
@@ -45,8 +37,6 @@ The deployment includes:
 - A private S3 bucket for Jenkins artifacts
 - A bootstrap script that installs and starts Jenkins automatically
 
----
-
 ## Prerequisites
 
 - AWS account
@@ -54,8 +44,6 @@ The deployment includes:
 - AWS CLI configured locally
 - IAM user with programmatic access
 - Code editor (VS Code recommended)
-
----
 
 ## Project Steps
 
